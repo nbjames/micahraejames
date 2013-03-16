@@ -1,4 +1,16 @@
 Micahraejames::Application.routes.draw do
+  get 'social' => 'pages#social'
+
+  get 'contact' => 'pages#contact'
+
+  get 'downloads' => 'pages#downloads'
+
+  get 'media' => 'pages#media'
+
+  get 'blog' => 'pages#blog'
+
+  root :to => 'pages#bio'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +60,7 @@ Micahraejames::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  
 
   # See how all your routes lay out with "rake routes"
 
