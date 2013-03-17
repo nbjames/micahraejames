@@ -1,7 +1,41 @@
 <div class="footer">
+	
+	<div class="navbar navbar-fixed-bottom">
+	  <div class="navbar-inner">
+	    <div class="container">
+	 
+	      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+	      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </a>
+	 
+	      <!-- Be sure to leave the brand out there if you want it shown -->
+	      <a class="brand" href="http://micahraejames.com">Micah Rae James</a>
+	 
+	      <!-- Everything you want hidden at 940px or less, place within here -->
+	      <div class="nav-collapse collapse">
+	      	<ul class="nav">
+		        <li><%= link_to "Bio", root_path %></li>
+				<li><%= link_to "Social", social_path %></li>
+				<li><%= link_to "Blog", blog_path %></li>
+				<li><%= link_to "Contact", contact_path %></li>
+				<li><%= link_to "Downloads", downloads_path %></li>
+				<li><%= link_to "Media", media_path %></li>
+			</ul>
+
+			<ul class="nav pull-right">
+				<li><%= link_to "nbjames.com logo", "http://nbjames.com"%></li>
+	      </div>
+	 
+	    </div>
+	  </div>
+	</div>
+
 <small>
-	<%= link_to "MicahRaeJames.com", "http://micahraejames.com" %>
-	by <%= link_to "Nick James", "http://nbjames.com" %>
+	Copyright 2013. All Rights Reserved. Creative Commons>
 </small>
 
 </div>
+

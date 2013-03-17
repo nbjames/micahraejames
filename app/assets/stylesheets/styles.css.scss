@@ -1,3 +1,26 @@
+/*Need to import whatever font Micah wants
+	Probably from Google Web Fonts
+	It Goes Here
+	@import url(...)
+*/
+
+/*
+$navbarBackgroundHightlight
+$navbarBackground
+
+All available through Bootstrap Customize
+*/
+
 @import 'bootstrap';
 
+body {
+	padding-top: 50px;
+
+}
+
 @import 'bootstrap-responsive';
+
+.footer {
+
+	margin-top: 65px;
+	}
